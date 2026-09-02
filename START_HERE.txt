@@ -1,0 +1,22 @@
+SpendWise Quick Start — Windows
+
+BACKEND
+1. Open the SpendWise_Polished folder in VS Code.
+2. Open Terminal:
+   cd server
+   npm install
+   copy .env.example .env
+   npm run dev
+
+FRONTEND
+3. Open a second Terminal:
+   cd client
+   npm install
+   copy .env.example .env
+   npm run dev
+
+4. Open http://localhost:5173
+
+Keep both terminals running.
+Backend: http://localhost:5000
+Frontend: http://localhost:5173
