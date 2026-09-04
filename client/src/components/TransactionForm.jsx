@@ -50,7 +50,7 @@ export default function TransactionForm({ categories, editing, onSubmit, onCance
       <label>Amount
         <input type="number" min="0.01" step="0.01" value={form.amount}
           onChange={e=>setForm(f=>({...f,amount:e.target.value}))}
-          placeholder="2500" required />
+          placeholder="Enter amount"required />
       </label>
 
       <label>Category
