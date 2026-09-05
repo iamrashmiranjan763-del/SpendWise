@@ -1,7 +1,11 @@
 # SpendWise — Personal Finance & Expense Analytics
 
 A polished full-stack personal finance application built with React, Vite, Node.js, Express, SQLite, and Recharts.
+## Live Demo
 
+**Frontend:** https://energetic-youth-production.up.railway.app
+
+The application is deployed on Railway with separate frontend and backend services and persistent SQLite storage.
 ## Core Features
 - Add, edit, delete income and expenses
 - Category-based transaction management
